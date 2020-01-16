@@ -5,15 +5,15 @@ public class Duplicate_characters {
 	public static void main(String[] args)  {
 		
 		Scanner input = new Scanner(System.in);
-		String str;
+		String input_String;
 		
 		System.out.println("Enter Any String :");
-		str =input.nextLine();
-		char[] temp = str.toCharArray();
+		input_String =input.nextLine();
+		char[] temp = input_String.toCharArray();
 		
-		for(int i=0; i< str.length(); i++) {
+		for(int i=0; i< input_String.length(); i++) {
 			
-			for(int j =i+1; j<str.length(); j++ ) {
+			for(int j =i+1; j<input_String.length(); j++ ) {
 				
 				if (temp[i] == temp[j]) {
 				
