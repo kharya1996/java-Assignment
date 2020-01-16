@@ -30,8 +30,13 @@ public class Calculator {
 				System.out.println("Result Subtraction is " +Result);
 				break;
 			
-			case"/": Result = Num_1 / Num_2;
+			case"/": if(Num_2!=0) {
+				Result = Num_1 / Num_2;
 				System.out.println("Result Divison is " +Result);
+			}else {
+				
+				System.out.println("Number Can't Divide by 0");
+			}
 				break;
 			case"*": Result = Num_1 * Num_2;
 				System.out.println("Result Multiplication is " +Result);
