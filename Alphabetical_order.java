@@ -6,7 +6,7 @@ public class Alphabetical_order {
 		
 		Scanner input_num = new Scanner(System.in);
 		
-		System.out.println("Enter the No. of String You Want to arrange");
+		System.out.println("Enter the Numbers of String You Want to arrange");
 		
 		int count = input_num.nextInt();
 		
@@ -29,7 +29,7 @@ public class Alphabetical_order {
 			
 				}
 		
-		String temp;
+		String newOrder;
 		
 		for(int i = 0; i< a.length; i++) {
 			
@@ -37,9 +37,9 @@ public class Alphabetical_order {
 				
 				if(a[j].compareTo(a[j+1]) > 0) {
 					
-					temp = a[j];
+					newOrder = a[j];
 					a[j] = a[j+1];
-					a[j+1] = temp;
+					a[j+1] = newOrder;
 				}
 				
 				
