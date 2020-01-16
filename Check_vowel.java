@@ -4,18 +4,18 @@ public class Check_vowel {
 	
 	public static void main(String[] args) {
 		
-		char ch;
+		char charValue;
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter any Character to check it's vowel ");
-		ch = input.next().charAt(0);
+		charValue = input.next().charAt(0);
 		
-		if(ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || ch == 'i' || ch == 'I' || ch == 'o' || ch == 'O' || ch == 'u' || ch == 'U') {
+		if(charValue == 'a' || charValue == 'A' || charValue == 'e' || charValue == 'E' || charValue == 'i' || charValue == 'I' || charValue == 'o' || charValue == 'O' || charValue == 'u' || charValue == 'U') {
 			
-			System.out.println(ch +":Is a Vowel");
+			System.out.println(charValue +":Is a Vowel");
 		}
 		else {
-			System.out.println( ch +":Is a Consonant" );
+			System.out.println( charValue +":Is a Consonant" );
 		}
 
 }
