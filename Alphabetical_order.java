@@ -4,21 +4,21 @@ public class Alphabetical_order {
 
 	public static void main(String[] args) {
 		
-		Scanner input = new Scanner(System.in);
+		Scanner input_num = new Scanner(System.in);
 		
 		System.out.println("Enter the No. of String You Want to arrange");
 		
-		int count = input.nextInt();
+		int count = input_num.nextInt();
 		
 		String[] a = new String[count];
 		
-		Scanner input2 = new Scanner(System.in);
+		Scanner input_string = new Scanner(System.in);
 		
 		System.out.println("Enter the String to Arrange:- ");
 		
 		for(int i = 0; i < count; i++ ) {
 			
-			a[i] = input2.nextLine();
+			a[i] = input_string.nextLine();
 		}
 		
 		System.out.print(" Your Strings are:-") ;
