@@ -4,11 +4,11 @@ public class Reverse_string {
 
 	public static void main(String[] args) {
 	
-		String str, reverse = "";
+		String input_string, reverse = "";
 		Scanner input =new Scanner(System.in);
 		System.out.println("Enter any String to Reverse");
-		str = input.nextLine();
-		String a[] = str.split(" ");
+		input_string = input.nextLine();
+		String a[] = input_string.split(" ");
 		
 		for(int i =a.length-1; i>=0; i--) {
 			
