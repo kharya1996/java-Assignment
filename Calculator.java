@@ -5,7 +5,7 @@ public class Calculator {
 	public static void main(String[] args) {
 	
 		int Num_1 ,Num_2, Result;
-		String symbol, yn;
+		String symbol, toContinue;
 		
 			
 		do {
@@ -45,11 +45,11 @@ public class Calculator {
 			break;
 			
 			}
-			System.out.println("Do you want do more operation Press Y  or N ");
-			yn = input.next();
+			System.out.println("Do you want do more operation Press Y for YES  or N for No ");
+			toContinue = input.next();
 			
 		}
-			while(yn.equals("y") || yn.equals("Y") );
+			while(toContinue.equals("y") || toContinue.equals("Y") );
 		
 		
 				
